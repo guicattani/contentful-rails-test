@@ -1,4 +1,15 @@
 # frozen_string_literal: true
+require "vcr"
+require "simplecov"
+SimpleCov.start.to_json
+
+VCR.configure do |c|
+  c.cassette_library_dir = "spec/cassettes"
+  c.hook_into :webmock
+  c.configure_rspec_metadata!
+end
+
+require File.expand_path("../config/environment", __dir__)
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
@@ -19,6 +30,8 @@ RSpec.configure do |config|
 
   config.profile_examples = 10
   config.order = :random
+
+  config.treat_symbols_as_metadata_keys_with_true_values = true
 
   Kernel.srand config.seed
 end

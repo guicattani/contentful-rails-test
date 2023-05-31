@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tags": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "kk2bw5ojx476"
+      }
+    },
+    "id": "5mFyTozvSoyE0Mqseoos86",
+    "type": "Asset",
+    "createdAt": "2018-05-07T13:31:45.501Z",
+    "updatedAt": "2018-05-07T13:31:45.501Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "revision": 1,
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "SKU1479 Hero 077-71d8a07ff8e79abcb0e6c0ebf0f3b69c",
+    "file": {
+      "url": "//images.ctfassets.net/kk2bw5ojx476/5mFyTozvSoyE0Mqseoos86/fb88f4302cfd184492e548cde11a2555/SKU1479_Hero_077-71d8a07ff8e79abcb0e6c0ebf0f3b69c.jpg",
+      "details": {
+        "size": 230068,
+        "image": {
+          "width": 1020,
+          "height": 680
+        }
+      },
+      "fileName": "SKU1479_Hero_077-71d8a07ff8e79abcb0e6c0ebf0f3b69c.jpg",
+      "contentType": "image/jpeg"
+    }
+  }
+}

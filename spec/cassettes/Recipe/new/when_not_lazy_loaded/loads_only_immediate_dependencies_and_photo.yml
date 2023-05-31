@@ -1,0 +1,430 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries/437eO3ORCME46i02SeCW46
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1144'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Patch:
+      - application/json-patch+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - W/"15148044093984078318"
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries/:id"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Resource-Resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 31 May 2023 21:55:32 GMT
+      Age:
+      - '16477'
+      X-Served-By:
+      - cache-ewr18152-EWR, cache-cgh11146-CGH
+      X-Cache-Hits:
+      - 1, 1
+      X-Timer:
+      - S1685570132.368214,VS0,VE9
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - '0193412f-3c05-4066-8d91-1291fe7e4fad'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"metadata":{"tags":[]},"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"kk2bw5ojx476"}},"id":"437eO3ORCME46i02SeCW46","type":"Entry","createdAt":"2018-05-07T13:32:04.593Z","updatedAt":"2018-05-07T13:36:41.741Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":3,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"recipe"}},"locale":"en-US"},"fields":{"title":"Crispy
+        Chicken and Rice\twith Peas & Arugula Salad","photo":{"sys":{"type":"Link","linkType":"Asset","id":"5mFyTozvSoyE0Mqseoos86"}},"calories":785,"description":"Crispy
+        chicken skin, tender meat, and rich, tomatoey sauce form a winning trifecta
+        of delicious in this one-pot braise. We spoon it over rice and peas to soak
+        up every last drop of goodness, and serve a tangy arugula salad alongside
+        for a vibrant boost of flavor and color. Dinner is served! Cook, relax, and
+        enjoy!","chef":{"sys":{"type":"Link","linkType":"Entry","id":"NysGB8obcaQWmq0aQ6qkC"}},"tags":[{"sys":{"type":"Link","linkType":"Entry","id":"61Lgvo6rzUIgIGgcOAMgQ8"}},{"sys":{"type":"Link","linkType":"Entry","id":"gUfhl28dfaeU6wcWSqs0q"}}]}}
+
+        '
+  recorded_at: Wed, 31 May 2023 21:55:49 GMT
+- request:
+    method: get
+    uri: http://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/assets/5mFyTozvSoyE0Mqseoos86
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '724'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - '"13373307143111071630"'
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/assets/:id"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Resource-Resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 31 May 2023 21:55:32 GMT
+      Age:
+      - '16478'
+      X-Served-By:
+      - cache-ewr18174-EWR, cache-cgh11154-CGH
+      X-Cache-Hits:
+      - 1, 1
+      X-Timer:
+      - S1685570133.794732,VS0,VE1
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - 007f354e-d160-441f-871c-5ab23ee6a859
+    body:
+      encoding: UTF-8
+      string: '{"metadata":{"tags":[]},"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"kk2bw5ojx476"}},"id":"5mFyTozvSoyE0Mqseoos86","type":"Asset","createdAt":"2018-05-07T13:31:45.501Z","updatedAt":"2018-05-07T13:31:45.501Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":1,"locale":"en-US"},"fields":{"title":"SKU1479
+        Hero 077-71d8a07ff8e79abcb0e6c0ebf0f3b69c","file":{"url":"//images.ctfassets.net/kk2bw5ojx476/5mFyTozvSoyE0Mqseoos86/fb88f4302cfd184492e548cde11a2555/SKU1479_Hero_077-71d8a07ff8e79abcb0e6c0ebf0f3b69c.jpg","details":{"size":230068,"image":{"width":1020,"height":680}},"fileName":"SKU1479_Hero_077-71d8a07ff8e79abcb0e6c0ebf0f3b69c.jpg","contentType":"image/jpeg"}}}
+
+        '
+  recorded_at: Wed, 31 May 2023 21:55:50 GMT
+- request:
+    method: get
+    uri: http://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries/61Lgvo6rzUIgIGgcOAMgQ8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '440'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Patch:
+      - application/json-patch+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - '"4548578066517355769"'
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries/:id"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Resource-Resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 31 May 2023 21:55:33 GMT
+      Age:
+      - '7265'
+      X-Served-By:
+      - cache-ewr18182-EWR, cache-cgh11160-CGH
+      X-Cache-Hits:
+      - 0, 1
+      X-Timer:
+      - S1685570133.205825,VS0,VE1
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - 215669c5-dffb-4dc6-a8fb-7cdbb15e8268
+    body:
+      encoding: UTF-8
+      string: '{"metadata":{"tags":[]},"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"kk2bw5ojx476"}},"id":"61Lgvo6rzUIgIGgcOAMgQ8","type":"Entry","createdAt":"2018-05-07T13:27:25.845Z","updatedAt":"2018-05-07T13:27:25.845Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":1,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"tag"}},"locale":"en-US"},"fields":{"name":"gluten
+        free"}}
+
+        '
+  recorded_at: Wed, 31 May 2023 21:55:50 GMT
+- request:
+    method: get
+    uri: http://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries/gUfhl28dfaeU6wcWSqs0q
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '435'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Patch:
+      - application/json-patch+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - '"13747935477876219140"'
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries/:id"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Resource-Resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 31 May 2023 21:55:33 GMT
+      Age:
+      - '7265'
+      X-Served-By:
+      - cache-ewr18129-EWR, cache-cgh11166-CGH
+      X-Cache-Hits:
+      - 0, 1
+      X-Timer:
+      - S1685570134.622056,VS0,VE3
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - fd824e93-1606-4b35-9635-1400fa5c047b
+    body:
+      encoding: UTF-8
+      string: '{"metadata":{"tags":[]},"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"kk2bw5ojx476"}},"id":"gUfhl28dfaeU6wcWSqs0q","type":"Entry","createdAt":"2018-05-07T13:26:53.870Z","updatedAt":"2018-05-07T13:27:08.774Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":2,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"tag"}},"locale":"en-US"},"fields":{"name":"healthy"}}
+
+        '
+  recorded_at: Wed, 31 May 2023 21:55:50 GMT
+- request:
+    method: get
+    uri: http://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries/NysGB8obcaQWmq0aQ6qkC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '440'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Patch:
+      - application/json-patch+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - '"554103546620652161"'
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries/:id"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Resource-Resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 31 May 2023 21:55:34 GMT
+      Age:
+      - '7265'
+      X-Served-By:
+      - cache-ewr18125-EWR, cache-cgh11180-CGH
+      X-Cache-Hits:
+      - 0, 1
+      X-Timer:
+      - S1685570134.038427,VS0,VE1
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - 142ba922-1172-4bd9-ac1d-a724d3772ab7
+    body:
+      encoding: UTF-8
+      string: '{"metadata":{"tags":[]},"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"kk2bw5ojx476"}},"id":"NysGB8obcaQWmq0aQ6qkC","type":"Entry","createdAt":"2018-05-07T13:29:03.514Z","updatedAt":"2018-05-07T14:19:02.570Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":2,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"chef"}},"locale":"en-US"},"fields":{"name":"Jony
+        Chives"}}
+
+        '
+  recorded_at: Wed, 31 May 2023 21:55:51 GMT
+recorded_with: VCR 6.1.0

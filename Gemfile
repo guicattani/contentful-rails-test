@@ -7,8 +7,8 @@ ruby "3.2.2"
 gem "httparty"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
-gem "tailwindcss-rails"
 gem "redcarpet"
+gem "tailwindcss-rails"
 
 gem "dotenv-rails"
 gem "puma", "~> 5.0"
@@ -35,4 +35,6 @@ group :test do
   gem "rspec-rails"
   gem "shoulda-matchers", require: false
   gem "simplecov"
+  gem "vcr"
+  gem "webmock"
 end

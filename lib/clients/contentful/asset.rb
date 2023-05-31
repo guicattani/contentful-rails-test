@@ -47,14 +47,14 @@ class Contentful::Asset
   end
 
   def parse_url(response)
-    response["fields"]["url"]
+    response["fields"]["file"]["url"]
   end
 
   def parse_file_name(response)
-    response["fields"]["fileName"]
+    response["fields"]["file"]["fileName"]
   end
 
   def parse_content_type(response)
-    response["fields"]["contentType"]
+    response["fields"]["file"]["contentType"]
   end
 end

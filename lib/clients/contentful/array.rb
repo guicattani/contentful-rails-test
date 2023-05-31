@@ -5,7 +5,7 @@ class Contentful::Array
   def initialize(response, model, lazy_loaded: true)
     raise Contentful::Errors::InvalidStatus if !response.success?
 
-    if response.parsed_response["sys"]["type"] != "Array"
+    if !response["sys"] || response["sys"]["type"] != "Array"
       raise Contentful::Errors::InvalidBody
     end
 

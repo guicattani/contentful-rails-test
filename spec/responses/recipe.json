@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "tags": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "kk2bw5ojx476"
+      }
+    },
+    "id": "437eO3ORCME46i02SeCW46",
+    "type": "Entry",
+    "createdAt": "2018-05-07T13:32:04.593Z",
+    "updatedAt": "2018-05-07T13:36:41.741Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "revision": 3,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "recipe"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Crispy Chicken and Rice\twith Peas & Arugula Salad",
+    "photo": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "5mFyTozvSoyE0Mqseoos86"
+      }
+    },
+    "calories": 785,
+    "description": "Crispy chicken skin, tender meat, and rich, tomatoey sauce form a winning trifecta of delicious in this one-pot braise. We spoon it over rice and peas to soak up every last drop of goodness, and serve a tangy arugula salad alongside for a vibrant boost of flavor and color. Dinner is served! Cook, relax, and enjoy!",
+    "chef": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "NysGB8obcaQWmq0aQ6qkC"
+      }
+    },
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "61Lgvo6rzUIgIGgcOAMgQ8"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "gUfhl28dfaeU6wcWSqs0q"
+        }
+      }
+    ]
+  }
+}
