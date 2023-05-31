@@ -2,10 +2,6 @@
 
 Initial
 
-# Running tests and development server
-
-By default the password for the database is set as 
-
 # Deploying
 
 1. Fill credentials in `.env` file. A sample file is provided as `.env.sample`
