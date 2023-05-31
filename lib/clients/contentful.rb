@@ -25,15 +25,15 @@ class Contentful
   private
 
   def options
-    query.merge(auth.merge(format))
+    query_params.merge(auth.merge(format))
   end
 
-  def query
+  def query_params
     { page: @page, query: @query }
   end
 
   def auth
-    { 
+    {
       headers:
       {
        "Authorization" => "Bearer #{ENV["CONTENTFUL_ACCESS_TOKEN"]}",
