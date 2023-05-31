@@ -2,12 +2,10 @@
 class Recipe < Contentful::Entry
   CONTENT_TYPE = { "content_type": "recipe" }
 
-  attr_reader :title, :photo, :calories, :description, :list_of_tags, :chef_name
+  attr_reader :title, :photo, :calories, :description, :list_of_tags, :chef
 
-  def initialize(response, lazy_loaded: true)
+  def initialize(response, lazy_loaded: false)
     super(response, lazy_loaded:)
-    return if lazy_loaded
-
     @title        = parse_title(response)
     @photo        = parse_photo(response)
     @calories     = parse_calories(response)
@@ -17,13 +15,17 @@ class Recipe < Contentful::Entry
   end
 
   def self.all
-    Contentful::Array.new(Contentful.new(CONTENT_TYPE).entries, self)
+    Contentful::Array.new(Contentful.new(CONTENT_TYPE).entries(lazy_loaded:), self)
+  end
+
+  def self.find(link_id)
+    Recipe.new(Contentful.new(CONTENT_TYPE).entry(link_id), lazy_loaded: false)
   end
 
   private
 
   def parse_title(response)
-    raise Contentfull::Errors::MissingField if response["fields"]["title"].nil?
+    raise Contentful::Errors::MissingField if response["fields"]["title"].nil?
 
     response["fields"]["title"]
   end
@@ -50,13 +52,13 @@ class Recipe < Contentful::Entry
     return if response["fields"]["tags"].nil?
 
     response["fields"]["tags"].map do |tag|
-      Tag.new(tag, lazy_loaded: true)
+      Tag.new(tag, lazy_loaded:)
     end
   end
 
   def parse_chef(response)
     return if response["fields"]["chef"].nil?
 
-    Chef.new(response["fields"]["chef"], lazy_loaded: true)
+    Chef.new(response["fields"]["chef"], lazy_loaded:)
   end
 end

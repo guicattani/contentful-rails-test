@@ -8,6 +8,7 @@ gem "httparty"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
 gem "tailwindcss-rails"
+gem "redcarpet"
 
 gem "dotenv-rails"
 gem "puma", "~> 5.0"

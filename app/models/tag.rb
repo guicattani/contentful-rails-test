@@ -6,14 +6,16 @@ class Tag < Contentful::Entry
     super(response, lazy_loaded:)
     return if lazy_loaded
 
-    @name = parse_name(response)
+    @name = parse_name
   end
 
   private
 
-  def parse_name(response)
-    raise Contentfull::Errors::MissingField if response["fields"]["name"].nil?
+  def parse_name
+    if fields.nil? || fields["name"].nil?
+      raise ::Contentful::Errors::MissingField
+    end
 
-    response["fields"]["name"]
+    fields["name"]
   end
 end

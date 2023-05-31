@@ -1,0 +1,22 @@
+<div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-300 p-3 md:flex-row">
+  <div class="shrink-0"><img src="<%= "https:#{@recipe.photo.file['url']}" %>" alt="<%= @recipe.title %>" loading="lazy"/></div>
+  <div>
+    <div class="flex flex-col items-center md:flex-row">
+      <b><%= @recipe.title %></b>
+      <br>
+      <% if @recipe.chef %>
+        <i><%= "by #{@recipe.chef.name}" %></i>
+      <% end %>
+      <div class="ml-3 flex gap-2">
+        <% if @recipe.list_of_tags %>
+          <% @recipe.list_of_tags.each do |tag| %>
+            <div><b><i><%= tag.name%></i></b></div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <p>
+      <%= markdown(@recipe.description) %>
+    </p>
+  </div>
+</div>

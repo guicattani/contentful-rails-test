@@ -1,0 +1,10 @@
+<% Recipe.all.items.each do |recipe| %>
+  <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-300 p-3 md:flex-row">
+    <div class="shrink-0"><img class="h-36 w-36" src="<%= "https:#{recipe.photo.file['url']}" %>" alt="<%= recipe.title %>" loading="lazy"/></div>
+    <div>
+      <div class="flex flex-col items-center gap-y-2 md:flex-row">
+        <a class="text-xl font-semibold hover:text-purple-400" href='<%= "/#{recipe.link_id}" %>'><%= recipe.title %></a>
+      </div>
+    </div>
+  </div>
+<% end %>
