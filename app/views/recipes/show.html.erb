@@ -7,7 +7,7 @@
       <% if @recipe.chef %>
         <i><%= "by #{@recipe.chef.name}" %></i>
       <% end %>
-      <div class="ml-3 flex gap-2">
+      <div>
         <% if @recipe.list_of_tags %>
           <% @recipe.list_of_tags.each do |tag| %>
             <div><b><i><%= tag.name%></i></b></div>

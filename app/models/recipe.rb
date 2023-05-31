@@ -15,7 +15,7 @@ class Recipe < Contentful::Entry
   end
 
   def self.all
-    Contentful::Array.new(Contentful.new(CONTENT_TYPE).entries(lazy_loaded:), self)
+    Contentful::Array.new(Contentful.new(CONTENT_TYPE).entries, self)
   end
 
   def self.find(link_id)
